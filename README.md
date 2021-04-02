@@ -8,6 +8,10 @@
 下载zip包：[content-and-conquer-v1.0.0.zip](https://github.com/justdark/content-conquer/raw/master/dist-zip/content%20and%20conquer-v1.0.0.zip)
 拖到chrome插件页面进行安装
 
+从extension里面把插件pin上来进行点击配置
+
+<img src="https://github.com/justdark/content-conquer/blob/master/pin.jpg?raw=true" width="300px"></img>
+
 
 ## 使用
 
