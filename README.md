@@ -5,6 +5,8 @@
 
 **对于普通用户只需要配置相关的屏蔽词即可**
 
+<img src="https://github.com/justdark/content-conquer/blob/master/config.jpg?raw=true" width="300px"></img>
+ ![result](https://github.com/justdark/content-conquer/blob/master/result.jpg?raw=true)
 
 具体支持哪些页面和信息流的过滤，依赖于CACConfig.json，可以自行编辑代码，后面有需要再放开通过配置进行编辑
 
@@ -32,6 +34,8 @@
       * 后面的位置信息，会逐个对上面的list节点进行querySelectorAll并取第一个操作，直到最后获得元素的innerText信息作为校验值
       * 以上面的配置为例，你可以在知乎页面的控制台运行 `document.querySelectorAll("div.Feed")[0].querySelectorAll("h2.ContentItem-title")[0].innerText` 拿到第一个用于校验的值，最后程序用的就是这个东西
 
+
+如果你需要二次开发，这个项目是基于[vue-chrome-extension-boilerplate](https://github.com/mubaidr/vue-chrome-extension-boilerplate)进行开发的：
 
 ## Scripts
 
