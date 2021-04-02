@@ -3,10 +3,21 @@
 
 用于屏蔽各种信息流、商品流里面你不想要的信息，比如淘宝、京东、微博、知乎；
 
+## 安装
+
+下载zip包：[content-and-conquer-v1.0.0.zip](https://github.com/justdark/content-conquer/raw/master/dist-zip/content%20and%20conquer-v1.0.0.zip)
+拖到chrome插件页面进行安装
+
+
+## 使用
+
 **对于普通用户只需要配置相关的屏蔽词即可**
 
 <img src="https://github.com/justdark/content-conquer/blob/master/config.jpg?raw=true" width="300px"></img>
  ![result](https://github.com/justdark/content-conquer/blob/master/result.jpg?raw=true)
+
+
+## for developer
 
 具体支持哪些页面和信息流的过滤，依赖于CACConfig.json，可以自行编辑代码，后面有需要再放开通过配置进行编辑
 
